@@ -40,6 +40,7 @@ public class AppleDispacherServlet extends HttpServlet {
         try {
             getUrlMethodMap();
         } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 
